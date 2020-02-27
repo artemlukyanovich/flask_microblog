@@ -80,6 +80,7 @@ user1.followed.remove(user2
 в другом:
 (venv) $ export MAIL_SERVER=localhost
 (venv) $ export MAIL_PORT=8025
+(venv) $ export FLASK_DEBUG=0
 
 Чтоб настроить гугл почту:
 (venv) $ export MAIL_SERVER=smtp.googlemail.com
@@ -97,6 +98,7 @@ user1.followed.remove(user2
 в другом:
 (venv) $ export MAIL_SERVER=localhost
 (venv) $ export MAIL_PORT=8025
+(venv) $ export FLASK_DEBUG=0
 
 И через flask shell:
 (тут почему-то работает через команду именно flask shell)
